@@ -1,0 +1,26 @@
+.rectificator {
+    position: relative;
+    .wrapper {
+        left: 150px;
+
+        &.lower {
+            top: 410px;   
+        }
+        &.higher {
+            top: 360px;
+        }
+    }
+    .switch {
+        left: 230px;
+        &.higher {
+            top: 150px;
+        }
+        &.lower {
+            top: 320px
+        }
+    }
+    .paramsShow {
+        top: 30px;
+        left: 140px;
+    }
+}

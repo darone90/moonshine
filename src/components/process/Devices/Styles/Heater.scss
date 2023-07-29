@@ -1,0 +1,50 @@
+.wrapper {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    .heater {
+        width: 200px;
+        height: 10px;
+        background-color: rgb(43, 193, 251);
+        border-radius: 5px 0 0 5px;
+        &.on {
+            animation: heaterStart 30s  
+        }
+    }
+    .power {
+        margin-left: 10px;
+        font-weight: bold;
+        color: antiquewhite;
+    }
+    .work {
+        width: 30px;
+        height: 30px;
+        border: 3px solid black;
+        margin-left: 10px;
+        &.off {
+            background-color: white;
+        }
+        &.on {
+            background-color: green;
+        }
+    }
+    .info {
+        margin-left: 10px;
+        &.on {
+            color: green;
+        }
+        &.off {
+            color: rgb(43, 193, 251);;
+        }
+    }
+
+    @keyframes heaterStart {
+        from {
+            background-color: rgb(43, 193, 251);
+        }
+        to {
+            background-color: rgb(252, 42, 42)
+        }
+    }
+}
