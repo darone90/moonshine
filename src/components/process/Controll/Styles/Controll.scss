@@ -1,0 +1,33 @@
+.controll {
+    border: 2px solid black;
+    width: 350px;
+    height: 400px;
+    margin-left: 400px;
+    &_panel {
+        margin-top: 50px;
+    }
+    &_status {
+        border-top: 2px solid black;
+        padding-top: 5px;
+        margin-top: 25px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+
+        .device {
+            width: 30px;
+            height: 30px;
+            border: 2px solid black;
+            &.work {
+                background-color: green;
+            }
+            &.stop {
+                background-color: white;
+            }
+            &.hand {
+                background-color: gray;
+            }
+        }
+    }
+}

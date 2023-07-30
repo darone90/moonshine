@@ -1,6 +1,15 @@
 .Process {
-    margin: 2rem 5rem;
+    margin: 1rem;
     background-color: rgb(31, 36, 29);
     border-radius: 20px;
     padding: 20px;
+    text-align: center;
+    h2 {
+        margin-bottom: 20px;
+        color: wheat;
+    }
+    .topBar {
+        display: flex;
+        flex-direction: row;
+    }
 }

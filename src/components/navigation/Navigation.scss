@@ -2,7 +2,7 @@
     padding-top: 10px;
     background-color: black;
     border-radius: 20px;
-    margin: 2rem 5rem;
+    margin: 1rem;
     ul {
         background-color: rgb(31, 36, 29);
         height: 80px;
@@ -11,9 +11,9 @@
         flex-direction: row;
         flex-wrap: nowrap;
         justify-content: space-around;
-        align-items:flex-start;
         li {
             box-sizing: border-box;
+            margin-left: -40px;
             list-style: none;
             height: 100%;
             display: flex;

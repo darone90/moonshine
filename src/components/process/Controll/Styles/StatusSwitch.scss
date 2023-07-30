@@ -1,0 +1,20 @@
+.switchStatus {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+    color: rgb(43, 193, 251);
+    .work {
+        width: 30px;
+        height: 30px;
+        border: 2px solid black;
+        margin-top: 10px;
+        &.on {
+            background-color: green;
+        }
+        &.off {
+            background-color: red;
+        }
+    }
+}

@@ -2,6 +2,7 @@ import moduleName from 'module';
 
 import Line from './Line';
 import Temperature from './Temperature';
+import Cooling from './Cooling';
 
 import './Styles/Tower.scss'
 
@@ -10,6 +11,7 @@ const Tower = () => {
         <div className='tower'>
             <Line />
             <Temperature />
+            <Cooling />
         </div>
     )
 };

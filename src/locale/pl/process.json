@@ -4,5 +4,11 @@
     "off": "Wyłączony",
     "levelHigh": "Poziom wysoki",
     "levelLow": "Poziom niski",
-    "pressure": "Cisnienie"
+    "pressure": "Cisnienie",
+    "cooling": "Chłodzenie",
+    "coldFingers": "Zimne palce",
+    "cooler": "Wężownica",
+    "handControll": "Sterowanie Ręczne",
+    "device": "Urządzenie",
+    "work": "Praca"
 }

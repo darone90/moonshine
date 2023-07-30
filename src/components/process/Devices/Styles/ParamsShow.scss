@@ -17,18 +17,19 @@
     }
     .manometers {
         display: flex;
-        flex-direction: row;
-        width: 640px;
+        flex-direction: column;
+        width: 340px;
         height: 420px;
         border: 3px solid black;
         color: rgb(43, 193, 251);
         &_temp {
-            transform: scale(0.6);
-            margin-left: -60px;
+            transform: scale(0.4);
+            margin-top: -130px;
         }
         &_pres {
-            transform: scale(0.6);
-            margin-left: -100px;
+            transform: scale(0.4);
+            margin-top: -280px;
+            
         }
     }
 }
